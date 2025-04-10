@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --base-href /angular-portfolio/ && rm -rf docs/* && cp -r dist/angular-portfolio/browser/* docs/"
   },
   "private": true,
   "dependencies": {
