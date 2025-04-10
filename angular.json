@@ -30,7 +30,8 @@
               }
             ],
             "styles": ["src/styles.css"],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "/angular-dashboard/"
           },
           "configurations": {
             "production": {
